@@ -7,11 +7,11 @@
 
 <script>
 export default {
-	name: 'App',
+	name: "App",
 
 	data() {
 		return {
-			msg: 'Welcome to Your Vue.js App',
+			msg: "Welcome to Your Vue.js App",
 		};
 	},
 	methods: {
@@ -20,21 +20,9 @@ export default {
 			 *
 			 *
 			 *
-			 *
-			 *
-			 *
-			 *
-			 *
-			 *
-			 *
-			 *
-			 *
-			 *
-			 *
-			 *
 			 *                                */
 			(aa) => {
-				console.log('');
+				console.log("");
 			};
 		},
 	},
@@ -43,7 +31,7 @@ export default {
 
 <style>
 #app {
-	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	font-family: "Avenir", Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-align: center;
