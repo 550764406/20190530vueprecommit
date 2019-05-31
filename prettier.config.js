@@ -12,6 +12,7 @@ module.exports = {
   singleQuote: true, //用单引号替代双引号，true: 替代（这里vue里的不替换）  false：不替代
 
   quoteProps: 'consistent', // 这里没有测试出来
+
   jsxSingleQuote: true, // jsx中用单引号替代双引号 true：代表替换  false：不替换
 
   trailingCooma: 'none', //在methods等方法或者函数结尾处 是否添加逗号， none：不添加  es5和all：都是添加逗号
@@ -26,9 +27,9 @@ module.exports = {
 
   rangeEnd: Infinity, //向前直到选中语句的末尾
 
-  requirePragma: false, //是否严格按照文件顶部的一些特殊的注释格式化代码
+  requirePragma: true, //是否严格按照文件顶部的一些特殊的注释格式化代码
 
-  insertPragma: false, //是否插入文件顶部的一些特殊的注释格式化代码
+  insertPragma: true, //是否插入文件顶部的一些特殊的注释格式化代码
 
   proseWrap: 'preserve' //是否是当屏幕放不下时发生的软折行 always（当超出print width宽度时折行）|never|perserve(按照文件原样)
 };
