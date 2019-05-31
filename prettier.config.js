@@ -11,6 +11,8 @@ module.exports = {
 
   singleQuote: true, //用单引号替代双引号，true: 替代（这里vue里的不替换）  false：不替代
 
+  quoteProps: 'as-needed',
+
   trailingCooma: 'none', //在任何可能的多行中输入尾逗号
 
   bracketSpacing: true, //在对象字面量声明所使用的的花括号后（{）和前（}）输出空格
