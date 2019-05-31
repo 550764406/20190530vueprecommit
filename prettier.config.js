@@ -1,5 +1,3 @@
-/** @format */
-
 module.exports = {
   printWidth: 220, //单行输出（不折行）的（最大）长度
 
@@ -29,7 +27,7 @@ module.exports = {
 
   requirePragma: false, //是否严格按照文件顶部的一些特殊的注释格式化代码
 
-  insertPragma: true, //是否插入文件顶部的一些特殊的注释格式化代码
+  insertPragma: false, //是否插入文件顶部的一些特殊的注释格式化代码
 
   proseWrap: 'preserve' //是否是当屏幕放不下时发生的软折行 always（当超出print width宽度时折行）|never|perserve(按照文件原样)
 };
