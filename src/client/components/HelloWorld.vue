@@ -70,6 +70,11 @@ export default {
       ;(aa) => {
         console.log('')
       }
+    },
+    myclick111() {
+      ;(bbb) => {
+        console.log('')
+      }
     }
   }
 }
