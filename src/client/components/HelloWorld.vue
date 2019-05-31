@@ -67,9 +67,9 @@ export default {
   },
   methods: {
     myclick() {
-      function aa() {
+      (aa) => {
         console.log('');
-      }
+      };
     }
   }
 };
