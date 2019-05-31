@@ -9,7 +9,7 @@ module.exports = {
 
   semi: true, //在语句末尾添加分号, true: 添加分号   false: 不添加分号
 
-  singleQuote: true, //所有引号均为双引号，true: 全部是双引号
+  singleQuote: true, //用单引号替代双引号，true: 替代（这里vue里的不替换）  false：不替代
 
   trailingCooma: 'none', //在任何可能的多行中输入尾逗号
 
