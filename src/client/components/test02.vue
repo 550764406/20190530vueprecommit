@@ -1,6 +1,5 @@
 <template>
 
-
   <div name="test02div">
     <span class="test02span">
       {{ msg }}
