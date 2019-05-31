@@ -7,7 +7,7 @@ module.exports = {
 
   useTabs: false, //使用tab（制表位）缩进而非空格
 
-  semi: true, //在语句末尾添加分号；
+  semi: true, //在语句末尾添加分号, true: 添加分号   false: 不添加分号
 
   singleQuote: false, //所有引号均为双引号，true: 全部是双引号
 
