@@ -16,7 +16,7 @@ module.exports = {
 
   trailingCooma: 'none', //在methods等方法或者函数结尾处 是否添加逗号， none：不添加  es5和all：都是添加逗号
 
-  bracketSpacing: false, //在对象字面量声明所使用的的花括号后（{）和前（}）输出空格
+  bracketSpacing: true, //在对象字面量声明所使用的的花括号后（{）和前（}）输出空格
 
   jsxBracketSameLine: false, // 在多行JSX元素最后一行的末尾（>）结束时  是否使用> 为单独一行
 
