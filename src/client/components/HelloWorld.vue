@@ -58,6 +58,7 @@
 </template>
 
 <script>
+var a = {a: '1', b: '2'};
 export default {
   name: 'HelloWorld',
   data() {
