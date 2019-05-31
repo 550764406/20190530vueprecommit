@@ -5,6 +5,8 @@ import HelloWorld from '@/client/components/HelloWorld';
 Vue.use(Router);
 
 export default new Router({
+
+  
 	routes: [
 		{
 			path: '/',
