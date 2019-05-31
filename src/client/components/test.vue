@@ -1,9 +1,9 @@
+<!-- @format -->
+
 <template>
   <div>
     <div id="aa">
       <input type="text" />
-
-
     </div>
   </div>
 </template>
@@ -15,8 +15,8 @@ export default {
   },
   methods: {
     myclick() {
-      bb => {
-        console.log("");
+      (bb) => {
+        console.log('');
       };
     }
   }

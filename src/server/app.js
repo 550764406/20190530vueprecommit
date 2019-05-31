@@ -1,3 +1,5 @@
+/** @format */
+
 var express = require('express');
 var fs = require('fs');
 var path = require('path');
@@ -9,10 +11,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.resolve(__dirname, '../../dist')));
 // 访问单页
 app.get('*', function(req, res) {
-	var html = fs.readFileSync(path.resolve(__dirname, '../../dist/index.html'), 'utf-8');
-	res.send(html);
+  var html = fs.readFileSync(
+    path.resolve(__dirname, '../../dist/index.html'),
+    'utf-8'
+  );
+  res.send(html);
 });
 // 监听
 app.listen(8081, function() {
-	console.log('success listen...8081');
+  console.log('success listen...8081');
 });
