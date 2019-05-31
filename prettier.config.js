@@ -7,7 +7,7 @@ module.exports = {
 
   useTabs: false, //使用tab（制表位）缩进而非空格
 
-  semi: true, //在语句末尾添加分号, true: 添加分号   false: 不添加分号
+  semi: false, //在语句末尾添加分号, true: 添加分号   false: 不添加分号
 
   singleQuote: true, //用单引号替代双引号，true: 替代（这里vue里的不替换）  false：不替代
 
@@ -30,4 +30,4 @@ module.exports = {
   insertPragma: false, //是否插入文件顶部的一些特殊的注释格式化代码
 
   proseWrap: 'preserve' //是否是当屏幕放不下时发生的软折行 always（当超出print width宽度时折行）|never|perserve(按照文件原样)
-};
+}
