@@ -63,16 +63,16 @@ export default {
   data() {
     return {
       msg: 'Welcome to Your Vue.js App'
-    };
+    }
   },
   methods: {
     myclick() {
-      (aa) => {
-        console.log('');
-      };
+      ;(aa) => {
+        console.log('')
+      }
     }
   }
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
