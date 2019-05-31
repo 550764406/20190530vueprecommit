@@ -25,7 +25,7 @@ module.exports = {
 
   rangeEnd: Infinity, //向前直到选中语句的末尾
 
-  requirePragma: true, //是否严格按照文件顶部的一些特殊的注释格式化代码
+  requirePragma: false, //是否严格按照文件顶部的一些特殊的注释格式化代码
 
   insertPragma: true, //是否插入文件顶部的一些特殊的注释格式化代码
 
