@@ -75,6 +75,11 @@ export default {
       ;(bbb) => {
         console.log('')
       }
+    },
+    myclick222() {
+      function cc() {
+        console.log('')
+      }
     }
   }
 }
